@@ -23,3 +23,5 @@ cmake -S . -B build -G Ninja -DCMAKE_CXX_COMPILER=clang++ \
 cmake --build build
 ctest --test-dir build --output-on-failure
 ```
+
+Built with AI assistance (Claude and other LLMs).
