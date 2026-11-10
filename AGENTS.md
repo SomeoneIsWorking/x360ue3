@@ -10,7 +10,3 @@ The local `shared/ue3` checkout is reference material only. Do not include it,
 copy from it, or make it a build/runtime dependency. Keep this library free of
 Xenia types and CPU execution policy; execution belongs to `x360port` and
 title-specific bindings belong to the consuming title.
-
-Build and verify C++ with Clang, clang-format, and clang-tidy. Consumers pin
-this repository to an immutable revision and must use the same public
-contracts rather than copying them.
